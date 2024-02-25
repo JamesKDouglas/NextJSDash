@@ -13,7 +13,6 @@ export default function Search(
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const { replace } = useRouter();
-  
 
   const handleSearch = useDebouncedCallback(
     (term) => {
