@@ -16,7 +16,6 @@ export default function Search(
 
   const handleSearch = useDebouncedCallback(
     (term) => {
-    console.log(`searching...${term}`);
     
     const params = new URLSearchParams(searchParams);
     params.set('page', '1');
