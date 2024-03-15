@@ -91,7 +91,6 @@ export async function createInvoice(prevState: State, formData:FormData){
     //reload
     redirect('/dashboard/invoices');
 
-    console.log(rawFormData)
 }
 
  
